@@ -1,0 +1,15 @@
+{
+  "name": "example-nodejs",
+  "version": "0.0.1",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/uvcloud/example-nodejs.git"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "4.5.x"
+  },
+  "dependencies": {
+    "express": "4.15.x"
+  }
+}
