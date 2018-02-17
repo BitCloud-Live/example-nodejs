@@ -5,12 +5,12 @@ This guide will walk you through deploying a Node.js application on [UVCloud](uv
 ## Usage
 
 ```console
-$ git clone https://github.com/uvcloud/example-nodejs-express.git
-$ cd example-nodejs-express
+$ git clone https://github.com/uvcloud/example-nodejs.git
+$ cd example-nodejs
 $ uv create
 Creating Application... done, created bamboo-espresso
 Git remote uv added
-remote available at ssh://git@uv-builder.run.uvcloud.ir:2222/bamboo-espresso.git
+remote available at ssh://git@uv-builder.uvapps.io:2222/bamboo-espresso.git
 $ git push uv master
 Counting objects: 188, done.
 Delta compression using up to 4 threads.
@@ -89,9 +89,9 @@ Use 'uv open' to view this application in your browser
 
 To learn more, use 'uv help' or visit https://uvcloud.ir/
 
-To ssh://git@uv-builder.run.uvcloud.ir:2222/bamboo-espresso.git
+To ssh://git@uv-builder.uvapps.io:2222/bamboo-espresso.git
  * [new branch]      master -> master
-$ curl http://bamboo-espresso.uvc.io
+$ curl http://bamboo-espresso.uvapps.io
 Powered by UV
 Release v2 on bamboo-espresso-web-3084677544-b9q78
 ```
